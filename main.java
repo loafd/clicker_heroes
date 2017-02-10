@@ -6,7 +6,9 @@ public class clicker_heroes {
     System.out.println("-------------------------");
     System.out.println("Whats your name?:")
     Scanner scan = new Scanner(System.in);
-    new.next();
+    String name = scan.next();
+    System.out.println("Your name is:" + name + "!");
+    
 
 	}
 }
