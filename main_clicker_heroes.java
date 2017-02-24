@@ -62,7 +62,7 @@ public class main_clicker_heroes {
 			time = 3;
 			damage = 10;
 		}
-		System.out.println("You are a " + spec + "with " + time + " time and " + damage + " damage!");
+		System.out.println("You are a " + spec + " with " + time + " time and " + damage + " damage!");
 	}
 }
 
