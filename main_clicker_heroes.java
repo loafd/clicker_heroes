@@ -8,9 +8,12 @@ public class main_clicker_heroes {
 		space.spacerDoSomething();
 		//define variables here
 			//define Strings here
-			String answer = "";
+				String answer = "";
+				String spec = "";
 			//define chars here
 			//define ints here
+				int damage = 1;
+				int time =1;
 		//code so far and name input
 		System.out.println("Welcome To Clicker Heroes");
 		space.spacerDoSomething();
@@ -33,7 +36,33 @@ public class main_clicker_heroes {
     String name = scan.next();
     System.out.println("Your name is: " + name + "!");
 		space.spacerDoSomething();
-
+		System.out.println("What specialization are you?");
+		System.out.println("The Warrior has high time and low damage.");
+		System.out.println("The Fighter has medium time and medium damage.");
+		System.out.println("The Mage has low time and high damage");
+		System.out.println("Type 'Warrior', 'Fighter', or 'Mage' to chose);
+		 
+		//choosing spec	 
+		//Make an oop class then call if if they type "warrior"..
+		if (answer.equals("Warrior") || answer.equals("warrior"))
+		{
+			spec = Warrior;
+			time = 10;
+			damage = 3;
+		}
+		else if (answer.equals("Fighter") || answer.equals("fighter"))
+		{
+			spec = Fighter;
+			time = 5;
+			damage = 5;
+		}
+		else if (answer.equals("Mage") || answer.equals("mage"))
+		{
+			spec = Mage;
+			time = 3;
+			damage = 10;
+		}
+		System.out.println("You are a " + spec + "with " + time + " time and " + damage + " damage!");
 	}
 }
 
