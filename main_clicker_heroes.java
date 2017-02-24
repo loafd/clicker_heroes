@@ -40,7 +40,7 @@ public class main_clicker_heroes {
 		System.out.println("The Warrior has high time and low damage.");
 		System.out.println("The Fighter has medium time and medium damage.");
 		System.out.println("The Mage has low time and high damage");
-		System.out.println("Type 'Warrior', 'Fighter', or 'Mage' to chose);
+		System.out.println("Type 'Warrior', 'Fighter', or 'Mage' to chose");
 		 
 		//choosing spec	 
 		//Make an oop class then call if if they type "warrior"..
