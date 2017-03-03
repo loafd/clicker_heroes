@@ -79,6 +79,15 @@ public class main_clicker_heroes {
 			System.out.println("You are a " + spec + " with " + time + " time and " + damage + " damage!");
 
 		}
+		space.spacerDoSomething();
+		System.out.println("Time to fight your first enemy!");
+		singleSpacer.singleSpaceGo();
+		System.out.println("This one looks good!");
+		singleSpacer.singleSpaceGo();
+		System.out.println("Press any button to engage!");
+		space.spacerDoSomething();
+		answer=scan.next();
+		
 	}
 }
 
