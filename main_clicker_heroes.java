@@ -1,4 +1,6 @@
-import java.util.Scanner; 
+import java.util.Scanner;
+import java.util.Random;
+
 public class main_clicker_heroes {
 	public static void main(String[] args) {
 		
@@ -7,6 +9,10 @@ public class main_clicker_heroes {
 		spacer space = new spacer();
 		singleSpace singleSpacer = new singleSpace();
 		space.spacerDoSomething();
+				//random number generator
+						//"rand"
+						Random rand = new Random();
+
 		//define variables here
 			//define Strings here
 				String answer = "";
@@ -88,6 +94,10 @@ public class main_clicker_heroes {
 		space.spacerDoSomething();
 		answer=scan.next();
 		
+		//random number from 1 to 10 for getting monsters
+		int  n = rand.nextInt(10) + 1;
+	
+		//make an if for different monsters if 1 to 10 or whaterer
 	}
 }
 
