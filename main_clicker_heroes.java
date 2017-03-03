@@ -18,6 +18,7 @@ public class main_clicker_heroes {
 				String answer = "";
 				String spec = "";
 			//define chars here
+				char enemy = marauder;
 			//define ints here
 				int damage = 1;
 				int time =1;
@@ -88,16 +89,40 @@ public class main_clicker_heroes {
 		space.spacerDoSomething();
 		System.out.println("Time to fight your first enemy!");
 		singleSpacer.singleSpaceGo();
-		System.out.println("This one looks good!");
+		System.out.println("Roll the dice to determine your enemy!");
 		singleSpacer.singleSpaceGo();
-		System.out.println("Press any button to engage!");
+		System.out.println("Press any button to roll!");
 		space.spacerDoSomething();
 		answer=scan.next();
 		
 		//random number from 1 to 10 for getting monsters
-		int  n = rand.nextInt(10) + 1;
+		
+		int  randMonster = rand.nextInt(12) + 2;
 	
-		//make an if for different monsters if 1 to 10 or whaterer
+		//If to choose monsters
+		if (randMonster <12 && randMonster >8)
+		{
+			enemy = maurader;
+		}
+		else if (randMonster <6 && randMonster >8)
+		{
+			enemy = thief;
+		}
+		else if (randMonster <4 && randMonster >6)
+		{
+			enemy = orc;
+		}
+		else if (randMonster <2 && randMonster >4)
+		{
+			enemy = troll;
+		}
+		else if (randMonster >2)
+		{
+			enemy = dragon;
+		}
+		
+		space.spacerDoSomething();
+		System.out.println("You rolled a " + randMonster + ". A " + enemy + " appeared!");
 	}
 }
 
