@@ -1,6 +1,6 @@
 public class spacer {
  
-	public spacer (){
+	public spacer(){
 		//empty	
 	}
 	

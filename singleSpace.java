@@ -1,6 +1,6 @@
 public class singleSpace {
  
-	public singleSpace (){
+	public singleSpace(){
 		//empty	
 	}
 	

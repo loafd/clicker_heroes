@@ -8,7 +8,15 @@ public class main_clicker_heroes {
 		Scanner scan = new Scanner(System.in);
 		spacer space = new spacer();
 		singleSpace singleSpacer = new singleSpace();
+			//enemy oop classes
+				marauder mauraderEnemy = new marauder();
+				theif theifEnemy = new theif();
+				orc orcEnemy = new orc();
+				troll trollEnemy = new troll();
+				dragon dragonEnemy = new dragon();
+				
 		space.spacerDoSomething();
+		
 				//random number generator
 						//"rand"
 						Random rand = new Random();
@@ -18,7 +26,6 @@ public class main_clicker_heroes {
 				String answer = "";
 				String spec = "";
 			//define chars here
-				char enemy = marauder;
 			//define ints here
 				int damage = 1;
 				int time =1;
@@ -102,23 +109,23 @@ public class main_clicker_heroes {
 		//If to choose monsters
 		if (randMonster <12 && randMonster >8)
 		{
-			enemy = maurader;
+			marauderEnemy.marauderGo();
 		}
 		else if (randMonster <6 && randMonster >8)
 		{
-			enemy = thief;
+			theifEnemy.theifGo();
 		}
 		else if (randMonster <4 && randMonster >6)
 		{
-			enemy = orc;
+			orcEnemy.orcGo();
 		}
 		else if (randMonster <2 && randMonster >4)
 		{
-			enemy = troll;
+			trollEnemy.trollGo();
 		}
 		else if (randMonster >2)
 		{
-			enemy = dragon;
+			dragonEnemy.dragonGo();
 		}
 		
 		space.spacerDoSomething();
