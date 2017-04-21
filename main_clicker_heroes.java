@@ -67,7 +67,7 @@ public class main_clicker_heroes {
 		singleSpacer.singleSpaceGo();		 
 		
 		//choosing spec	 
-		
+		//class warrior
 		answer=scan.next();
 		if (answer.equals("Warrior") || answer.equals("warrior"))
 		{
@@ -75,7 +75,7 @@ public class main_clicker_heroes {
 			time = 10;
 			damage = 3;
 			System.out.println("You are a " + spec + " with " + time + " time and " + damage + " damage!");
-
+		//class fighter
 		}
 		else if (answer.equals("Fighter") || answer.equals("fighter"))
 		{
@@ -83,7 +83,7 @@ public class main_clicker_heroes {
 			time = 5;
 			damage = 5;
 			System.out.println("You are a " + spec + " with " + time + " time and " + damage + " damage!");
-
+		//class mage
 		}
 		else if (answer.equals("Mage") || answer.equals("mage"))
 		{
@@ -91,7 +91,7 @@ public class main_clicker_heroes {
 			time = 3;
 			damage = 10;
 			System.out.println("You are a " + spec + " with " + time + " time and " + damage + " damage!");
-
+		//dialogue for fight innitiation
 		}
 		space.spacerDoSomething();
 		System.out.println("Time to fight your first enemy!");
